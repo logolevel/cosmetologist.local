@@ -1,0 +1,2 @@
+# cosmetologist.local
+WordPress Blog
