@@ -35,9 +35,13 @@ function load_my_script() {
         '/libs/js/contact_me.js');
     wp_enqueue_script('contact-me');
   
-    wp_register_script('spincrement', get_template_directory_uri() . 
- 		'/libs/spincrement/jquery.spincrement.min.js');
-    wp_enqueue_script('spincrement');
+    wp_register_script('counterup', get_template_directory_uri() . 
+        '/libs/counterup/jquery.countup.js');
+    wp_enqueue_script('counterup');
+  
+    wp_register_script('waypoints', get_template_directory_uri() . 
+ 		'/libs/waypoints/jquery.waypoints.min.js');
+    wp_enqueue_script('waypoints');
 
     wp_register_script('clean-blog', get_template_directory_uri() . 
  		'/libs/js/clean-blog.js');

@@ -45,76 +45,52 @@
 
     <!-- Main Content -->
 
-    <!-- Services Section -->
-    <div class="container section-services">
-        <div class="row">
-					<div class="col-md-12">
-						<h2 class="text-center section-title-services">Услуги</h2>
-					</div>
-					<div class="col-md-4 col-sm-6 text-center services-description">
-							<img src="<?php bloginfo('template_url'); ?>/img/1.jpg" alt="" class="services-img img-circle">
-							<h4>Чистка лица</h4>
-							<p>Короткое описание процедуры или на каких брендах делается и т.д.</p>
-					</div>
-					<div class="col-md-4 col-sm-6 text-center services-description">
-							<img src="<?php bloginfo('template_url'); ?>/img/2.jpg" alt="" class="services-img img-circle">
-							<h4>Чистка спины</h4>
-							<p>Короткое описание процедуры или на каких брендах делается и т.д.</p>
-					</div>
-					<div class="col-md-4 col-sm-6 text-center services-description">
-							<img src="<?php bloginfo('template_url'); ?>/img/3.jpg" alt="" class="services-img img-circle">
-							<h4>Пилинг</h4>
-							<p>Короткое описание процедуры или на каких брендах делается и т.д.</p>
-					</div>
-					<div class="col-md-4 col-sm-6 text-center services-description">
-							<img src="<?php bloginfo('template_url'); ?>/img/4.jpg" alt="" class="services-img img-circle">
-							<h4>Маски, коненраты</h4>
-							<p>Короткое описание процедуры или на каких брендах делается и т.д.</p>
-					</div>
-					<div class="col-md-4 col-sm-6 text-center services-description">
-							<img src="<?php bloginfo('template_url'); ?>/img/5.jpg" alt="" class="services-img img-circle">
-							<h4>Уходы</h4>
-							<p>Короткое описание процедуры или на каких брендах делается и т.д.</p>
-					</div>
-					<div class="col-md-4 col-sm-6 text-center services-description">
-							<img src="<?php bloginfo('template_url'); ?>/img/6.jpg" alt="" class="services-img img-circle">
-							<h4>Мезотерапия</h4>
-							<p>Короткое описание процедуры или на каких брендах делается и т.д.</p>
-					</div>
-                    <div class="col-md-12 text-center">
-                        <a href="<?php echo get_site_url(); ?>/service" class="btn btn-danger">Подробнее...</a>
-                    </div>
+
+    <!-- Start About Section -->
+    <div class="about">
+        <div class="container">
+            <div class="row">
+                <h2 class="text-center section-title-testimonials">О себе</h2>
+                <div class="col-md-10 col-md-offset-1">
+                    <p>Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Реторический заглавных жаренные обеспечивает рыбного вопрос текст силуэт языком переулка выйти безорфографичный ее сих послушавшись пояс семь, взгляд страну вопроса от всех, рекламных текстов. Пунктуация осталось, безопасную раз запятых однажды дал единственное лучше, пустился. Собрал вскоре злых переулка предупредила запятой свой.</p>
+                    <p>Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Снова пор снова большого ты до о выйти, обеспечивает образ.</p>
+                    <p>Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Деревни агенство, несколько, ручеек рукопись текст диких пустился рыбного безопасную буквоград даль рекламных, выйти послушавшись.</p>
+                </div>
+            </div>
         </div>
     </div>
+    <!-- End About Section -->
+
+
 
     <!-- Achivments Section -->
-    <div class="achivments">
+    <div class="achivments" id="counts">
         <div class="container">
             <div class="row">
                 <div class="col-md-3 col-sm-6 col-xs-12">
                     <div class="text-center">
-                        <span>5</span>
+                        <span class="counter">5</span>
                         <div>Лет опыта работы</div>
                         <i class="fa fa-star-o"></i>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6 col-xs-12">
                     <div class="text-center">
-                        <span>7200</span>
+                        <span class="counter">7200</span>
                         <div>Проведённых процедур</div>
                         <i class="fa fa-braille"></i>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6 col-xs-12">
                     <div class="text-center">
-                        <span>35</span>
+                        <span class="counter">35</span>
                         <div>Сертификатов и дипломов</div>
                         <i class="fa fa-file-text-o"></i>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6 col-xs-12">
                     <div class="text-center">
-                        <span>320</span>
+                        <span class="counter">320</span>
                         <div>Постоянных клиентов</div>
                         <i class="fa fa-users"></i>
                     </div>

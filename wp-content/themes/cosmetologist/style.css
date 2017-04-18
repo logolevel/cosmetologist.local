@@ -711,3 +711,22 @@ footer .contacts i {
   padding: 10px 25px;
   border: 0;
 }
+/*Section About*/
+.about p:first-child {
+  margin-top: 0;
+}
+/*Tables*/
+@media (max-width: 550px) {
+  .tablepress th,
+  .tablepress td {
+    font-size: 14px !important;
+    font-family: 'trebuchet MS','Lucida sans',Arial;
+  }
+}
+@media (max-width: 374px) {
+  .tablepress th,
+  .tablepress td {
+    font-size: 12px !important;
+    font-family: 'trebuchet MS','Lucida sans',Arial;
+  }
+}

@@ -7,11 +7,19 @@ $(function() {
     }).on("blur", ".floating-label-form-group", function() {
         $(this).removeClass("floating-label-form-group-with-focus");
     });
-
+/************************
+    02. Make placeholder for inputs
+*************************/
     $('input[type="text"]').each(function() { 
         var $this = $(this); 
         $this.attr("placeholder", $this.attr("value")).removeAttr("value").addClass("form-control"); 
     });
+
+/************************
+    03. Counter Up
+*************************/
+    $('.counter').countUp();
+
 });
 
 // Navigation Scripts to Show Header on Scroll-Up
